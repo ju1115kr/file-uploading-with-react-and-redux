@@ -1,0 +1,72 @@
+{
+  "name": "file-uploading-with-react-and-redux",
+  "version": "1.0.0",
+  "description": "Source code for a tutorial on file uploading with React and Redux",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha spec/server/*.spec.js spec/client/setup.js spec/client/**/*.spec.js",
+    "bundle": "webpack",
+    "start": "PORT=3000 nodemon ./bin/www",
+    "lint": "eslint --color --ext .jsx,.js index.js spec client/src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladimirponomarev/file-uploading-with-react-and-redux.git"
+  },
+  "keywords": [
+    "file",
+    "uploading",
+    "react",
+    "redux"
+  ],
+  "author": "Vladimir Ponomarev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vladimirponomarev/file-uploading-with-react-and-redux/issues"
+  },
+  "homepage": "https://github.com/vladimirponomarev/file-uploading-with-react-and-redux#readme",
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "babel-register": "^6.22.0",
+    "chai": "^3.5.0",
+    "css-loader": "^0.26.1",
+    "eslint": "^3.15.0",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-react": "^6.9.0",
+    "file-loader": "^0.10.0",
+    "mocha": "^3.2.0",
+    "nodemon": "^1.11.0",
+    "style-loader": "^0.13.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^2.4.0",
+    "supertest": "^3.0.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^2.2.1"
+  },
+  "dependencies": {
+    "animate.css": "^3.5.2",
+    "babel-polyfill": "^6.22.0",
+    "classnames": "^2.2.5",
+    "connect-busboy": "0.0.2",
+    "express": "^4.14.1",
+    "font-awesome": "^4.7.0",
+    "foundation-sites": "^6.3.0",
+    "immutable": "^3.8.1",
+    "rc-progress": "^2.0.6",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-dropzone": "^3.9.2",
+    "react-immutable-proptypes": "^2.1.0",
+    "react-redux": "^5.0.2",
+    "react-toastr": "^2.8.2",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0",
+    "superagent": "^3.4.1",
+    "toastr": "^2.1.2"
+  }
+}

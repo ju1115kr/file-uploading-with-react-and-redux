@@ -1,0 +1,6 @@
+/node_modules
+/npm-debug.log
+/client/dist
+/server/static/uploads/
+!/server/static/uploads/.gitkeep
+
